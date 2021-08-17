@@ -1,0 +1,168 @@
+.root {
+  height: 100%;
+  background-color: #fff;
+}
+
+.addHeader {
+  margin-top: 0;
+}
+
+/*.header {
+  color: rgb(51, 163, 244);
+  background-color: #fff;
+  font-size: 15px;
+}*/
+
+.communityName {
+  padding-left: 15px;
+  height: 45px;
+  line-height: 45px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 45px;
+  z-index: 1;
+  color: #fff;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.cancel {
+  color: rgb(51, 163, 244);
+  background-color: #f6f5f6;
+  padding: 0;
+  height: 100%;
+  line-height: 45px;
+}
+
+.imgpicker {
+  overflow: hidden;
+}
+
+.roomType {
+  text-align: center;
+  color: #555252;
+  margin-left: 60px !important;
+}
+
+.input {
+  width: 20%;
+  color: #000;
+  font-size: 17px;
+  appearance: none;
+  padding: 2px 0;
+  border: 0;
+  background-color: transparent;
+  line-height: 1;
+}
+
+.input::placeholder {
+  color: #bbb;
+}
+
+.label {
+  color: #666;
+  font-size: 17px;
+  margin-right: 5px;
+  text-align: left;
+  overflow: hidden;
+  padding: 2px 0;
+  width: 85px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+:global [data-role='rent-list'] .am-input-label {
+  color: #666;
+}
+
+:global [data-role='rent-list'] .am-list-item .am-list-line .am-list-content {
+  color: #666;
+}
+
+.root :global(.am-list-header) {
+  color: rgb(51, 163, 244);
+  background-color: #fff;
+  font-size: 15px;
+}
+
+
+.root :global(input[placeholder]) {
+  font-size: 14px;
+}
+
+.root :global(textarea[placeholder]) {
+  font-size: 14px;
+}
+
+.confirm {
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  margin-left: 0 !important;
+  background-color: rgb(51, 163, 244);
+}
+
+/* .header :global(.am-list-body) { */
+:global(.am-list-item .am-list-line .am-list-content) {
+  font-size: 14px;
+}
+
+:global(.am-list-item .am-list-line .am-list-extra) {
+  font-size: 14px;
+}
+
+:global(.am-list-item .am-input-label) {
+  font-size: 14px;
+}
+
+:global(.am-list-item .am-input-extra) {
+  font-size: 14px;
+}
+
+:global(html:not([data-scale]) .am-list-body::after) {
+  height: 0;
+}
+
+.am-image-picker-list .am-image-picker-upload-btn {
+  width: 110px;
+  height: 110px;
+}
+
+.title :global(.am-list-header) {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pics :global(.am-list-header) {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.supporting :global(.am-list-header) {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.supporting :global(.am-list-body) {
+  padding-bottom: 20px;
+  background-color: #f6f5f6;
+}
+
+.desc {
+  background-color: #fff;
+  padding-bottom: 45px;
+}
+
+.desc :global(.am-list-header) {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}

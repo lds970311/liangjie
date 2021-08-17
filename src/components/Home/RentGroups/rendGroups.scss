@@ -1,0 +1,62 @@
+.rent-groups {
+  background-color: #f6f5f6;
+  overflow: hidden;
+
+  .title {
+    padding: 0 10px;
+
+    h3 {
+      margin: 15px 0 15px 10px;
+      font-size: 15px;
+    }
+
+    p {
+      color: #787d82;
+      font-size: 14px;
+    }
+  }
+
+  .am-flexbox-item {
+    p {
+      text-align: left;
+    }
+  }
+
+  .grid-item {
+    padding: 0 15px;
+    border: none;
+
+    img {
+      width: 50px;
+    }
+
+    .detail {
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    span {
+      font-size: 12px;
+      color: #999;
+    }
+  }
+
+  .am-grid-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 85px;
+  }
+
+  .am-grid-item:first-child {
+    margin-right: 10px;
+  }
+
+  .am-grid {
+    .am-flexbox {
+      background-color: transparent;
+    }
+  }
+}
+

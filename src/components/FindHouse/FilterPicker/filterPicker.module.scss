@@ -1,0 +1,9 @@
+.root {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 3;
+}
+
+:global(.am-picker-col-content) {
+  background-color: grey;
+}

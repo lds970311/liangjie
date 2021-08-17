@@ -1,0 +1,256 @@
+.root {
+  .navHeader {
+    margin-top: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+
+    :global {
+      .icon-back, .am-navbar-title, .icon-share {
+        color: #fff;
+      }
+    }
+  }
+
+  .slides {
+    height: 252px;
+  }
+
+
+  /* 地图位置 */
+  .map {
+    margin-top: 10px;
+    background: #fff;
+
+    .mapTitle {
+      margin: 0 3%;
+      line-height: 44px;
+      color: #666;
+      font-weight: bold;
+    }
+
+    .mapTitle :global(span) {
+      color: #333;
+    }
+
+    .mapContainer {
+      height: 145px;
+      text-align: center;
+    }
+  }
+
+  /* 房屋配套 */
+  .about {
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background: #fff;
+  }
+
+  /* 房屋概况 */
+  .set {
+    margin: 10px 0;
+    padding: 0 10px;
+    line-height: 150%;
+    background: #fff;
+
+    .contact {
+      position: relative;
+
+      .user {
+        margin-bottom: 10px;
+        display: flex;
+
+        .useInfo {
+          padding: 15px 0 0 5px;
+        }
+
+        .userAuth {
+          font-size: 12px;
+          color: #fa5741;
+        }
+
+      }
+
+      .user :global(img) {
+        width: 52px;
+        height: 52px;
+        margin: 10px 10px 0 0;
+      }
+
+      .userMsg {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        color: #33be85;
+        border: solid 1px #33be85;
+        border-radius: 3px;
+        padding: 3px 15px;
+      }
+    }
+
+    .descText {
+      line-height: 1.6;
+      padding: 10px 0;
+      color: #333;
+      text-align: justify;
+    }
+  }
+
+  /* 推荐 */
+  .recommend {
+    margin: 10px 0 0 0;
+    padding: 0 15px;
+    background: #fff;
+
+    .items :global(div:last-child) {
+      border-bottom: 0;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+//底部收藏按钮
+.fixedBottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #cecece;
+  text-align: center;
+  font-size: 17px;
+  color: #999;
+  background-color: #fff;
+  z-index: 5;
+
+  .favorite {
+    margin-left: 7px;
+  }
+
+  .favoriteImg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .telephone {
+    color: #fff
+  }
+}
+
+/* 房屋基础信息 */
+.info {
+  padding: 15px;
+  background: #fff;
+
+  .infoTitle {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+
+  .tags {
+    position: relative;
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 4px 5px;
+    margin-right: 5px;
+    line-height: 12px;
+  }
+
+  .tag1 {
+    color: #39becd;
+    background: #e1f5f8;
+  }
+
+  .tag2 {
+    color: #3fc28c;
+    background: #e1f5ed;
+  }
+
+  .tag3 {
+    color: #5aabfd;
+    background: #e6f2ff;
+  }
+
+  .infoPrice {
+    border-top: solid 1px #cecece;
+    border-bottom: solid 1px #cecece;
+    margin: 15px 0;
+    padding: 15px 0;
+  }
+
+  .infoPriceItem {
+    text-align: center;
+    color: #999;
+  }
+
+  .infoPriceItem :global(div) {
+    height: 26px;
+    line-height: 26px;
+  }
+
+  .infoPriceItem :global(div:first-child) {
+    color: #fa5741;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .infoBasic {
+    font-size: 13px;
+  }
+
+  .infoBasic div {
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .title {
+    display: inline-block;
+    color: #999;
+    padding-right: 5px;
+    line-height: 26px;
+  }
+
+  .month {
+    font-size: 12px;
+    font-weight: normal;
+  }
+}
+
+//标题
+.houseTitle {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  border-bottom: solid 1px #cecece;
+}
+
+.fixedBottom :global(div:first-child) {
+  border-right: solid 1px #e8e8e9;
+}
+
+.fixedBottom :global(div:last-child) {
+  border-right: solid 1px #e8e8e9;
+  background-color: rgb(51, 163, 244)
+}
+
+.mapArrow {
+  background: url(http://map.baidu.com/fwmap/upload/r/map/fwmap/static/house/images/label.png) no-repeat;
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 23px;
+  left: 10px;
+  overflow: hidden;
+}

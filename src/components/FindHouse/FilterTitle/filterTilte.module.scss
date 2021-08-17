@@ -1,0 +1,25 @@
+.filterTitle {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  background-color: #fff;
+  height: 40px;
+  border-bottom: 1px solid #e4e6f0;
+  transition: all linear .5s;
+}
+
+.dropdown {
+  display: inline-block;
+  font-size: 17px;
+  background-color: #fff;
+}
+
+.selected {
+  color: rgb(51, 163, 244);
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+

@@ -1,0 +1,48 @@
+.root {
+  height: 100%;
+  background-color: #fff;
+}
+
+.root :global(.am-search) {
+  background-color: #f6f5f6;
+}
+
+.root :global(.am-search-cancel) {
+  font-size: 15px;
+  color: #6b7072;
+}
+
+.root :global(.am-search-input .am-search-synthetic-ph-placeholder) {
+  font-size: 13px;
+}
+
+.list :global(li) {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #eaeaea;
+  color: #333;
+}
+
+.noHistory {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tips {
+  padding: 0 10px 10px;
+  line-height: 50px;
+  position: absolute;
+  top: 44px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.tip {
+  padding-left: 2px;
+  border-bottom: 1px solid #dcd6d6;
+}
+
+.tip:last-child {
+  border-bottom: 0;
+}

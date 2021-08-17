@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link href="%PUBLIC_URL%/favicon.ico" rel="icon"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+          name="viewport"/>
+    <meta content="#000000" name="theme-color"/>
+    <meta
+            content="Web site created using create-react-app"
+            name="description"
+    />
+    <link href="%PUBLIC_URL%/logo192.png" rel="apple-touch-icon"/>
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+        <!--引入百度地图api-->
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function () {
+                FastClick.attach(document.body);
+            }, false);
+        }
+        if (!window.Promise) {
+            document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+        }
+    </script>
+    <link href="%PUBLIC_URL%/manifest.json" rel="manifest"/>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=uYejtNF2PlQGVqzXKTkrLQ7iYezcrHvx"></script>
+    <title>凉介租房APP</title>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
+</html>

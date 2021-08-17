@@ -1,0 +1,23 @@
+/*全局样式*/
+html, body {
+  background-color: #fff;
+  font-family: "Microsoft YaHei";
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  touch-action: pan-y;
+
+  p {
+    margin: 0;
+  }
+}
+
+html, body, #root, #app {
+  height: 100%;
+}
+
+.hidden {
+  overflow: hidden;
+}

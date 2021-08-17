@@ -1,0 +1,41 @@
+.findHouse {
+  height: 100%;
+
+  .searchHeader {
+    height: 45px;
+    padding-left: 10px;
+    background-color: #f6f5f6;
+  }
+
+  .searchHeaderList {
+    position: relative;
+    top: 0;
+    height: 30px;
+
+    :global {
+      .icon-map {
+        color: rgb(51, 163, 244);
+      }
+    }
+  }
+}
+
+:global(.ReactVirtualized__Grid__innerScrollContainer) {
+  margin-bottom: 70px
+}
+
+.loading {
+  height: 110px;
+  background-color: #f6f5f6;
+  text-align: center;
+  line-height: 110px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.houseList {
+  position: absolute;
+  top: 85px;
+  width: 100%;
+}

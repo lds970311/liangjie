@@ -1,0 +1,154 @@
+.root {
+  height: 100%;
+  background-color: #fff;
+}
+
+.title {
+  min-height: 300px;
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+}
+
+.info {
+  position: absolute;
+  background: #fff;
+  width: 85%;
+  height: 55%;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 10px 3px #ddd;
+  margin: 50px auto 0;
+  padding: 0 20px;
+  padding-top: 0;
+  text-align: center;
+  font-size: 13px;
+}
+
+.auth {
+  margin-bottom: 30px;
+}
+
+.user {
+  padding-top: 15px;
+}
+
+.myIcon {
+  position: relative;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: solid 5px #f5f5f5;
+  display: inline-block;
+  box-shadow: 0px 2px 2px #bdbdbd;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+.auth :global(span) {
+  border-radius: 30px;
+  color: #fff;
+  padding: 2px 15px;
+  background: rgb(51, 163, 244);
+  font-size: 12px;
+}
+
+.edit {
+  color: #999;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.edit :global(.am-button-primary) {
+  background-color: rgb(51, 163, 244);
+}
+
+.arrow {
+  transform: rotate(-90deg);
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.arrow :global(.icon-arrow) {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.ad {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ad :global(img) {
+  width: 92%;
+}
+
+/* .container::-webkit-scrollbar {
+  width: 3px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #cbdaea;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  min-height: 2rem;
+  background-clip: padding-box;
+  border-radius: 5px;
+}
+.container::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.container::-webkit-scrollbar-track-piece {
+  height: 30px;
+} */
+/*
+.ui.modal > .actions {
+  text-align: center;
+}
+.ui.modal > .content {
+  text-align: center;
+}
+.ui.modal > .content .avatar-zoom {
+  color: #000;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding-bottom: 2px;
+  font-size: 18px;
+}
+ */
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  color: rgb(42, 38, 38);
+}
+
+.menuItem :global(i) {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+:global(.am-grid.am-grid-square .am-grid-item:before) {
+  padding-bottom: 76%;
+}
+
+:global(.am-grid .am-flexbox) {
+  background-color: inherit;
+}

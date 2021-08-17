@@ -1,0 +1,59 @@
+/*轮播图内导航样式*/
+.swiper {
+  position: relative;
+
+  .search-box {
+    position: absolute;
+    top: 25px;
+    z-index: 9;
+    padding: 0 10px;
+    width: 100%;
+
+    .search-left {
+      background-color: #fff;
+      flex: 1;
+      margin: 0 10px;
+      height: 34px;
+      padding: 5px 5px 5px 8px;
+      border-radius: 2px;
+      line-height: 34px;
+
+      .location {
+        span {
+          font-size: 14px;
+        }
+
+        .icon-arrow {
+          margin-left: 2px;
+          font-size: 12px;
+          color: #7f7f80;
+          margin-right: 5px;
+        }
+      }
+
+      .search-form {
+        margin-left: 5px;
+        border-left: 1px solid #e5e5e5;
+
+        .icon-seach {
+          vertical-align: middle;
+          padding: 0 2px 0 12px;
+          color: #9c9fa1;
+          font-size: 15px;
+          margin-right: 5px;
+        }
+
+        span {
+          color: #999;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+
+  .icon-map {
+    font-size: 25px;
+    color: #ffffff;
+  }
+}

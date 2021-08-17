@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background: #fff;
+  padding-left: 0;
+}
+
+.item {
+  margin: 10px 0;
+  width: 20%;
+  line-height: 23px;
+}
+
+.active {
+  color: #5aabfd;
+}
+
+.icon {
+  font-size: 23px;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}

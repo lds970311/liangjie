@@ -459,7 +459,7 @@ class Detail extends Component {
                     {this.renderStars()}
                     <Flex.Item>在线咨询</Flex.Item>
                     <Flex.Item>
-                        <a href="tel:400-618-4000" className={styles.telephone}>
+                        <a href="tel:17673045972" className={styles.telephone}>
                             电话预约
                         </a>
                     </Flex.Item>

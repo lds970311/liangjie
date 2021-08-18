@@ -1,17 +1,6 @@
 import React, {lazy, PureComponent, Suspense} from 'react';
 import {BrowserRouter, Redirect, Route} from "react-router-dom";
 import Home from "./pages/Home/Home";
-// import CityList from "./pages/CityList/CityList";
-// import Map from "./pages/Map/Map";
-// import Detail from "./pages/Detail/Detail";
-// import Login from "./pages/Login/Login";
-// import Register from "./pages/Register/Register";
-// import AuthRoute from "./components/AuthRoute/AuthRoute";
-// import RentAdd from "./pages/Rent/RentAdd/RentAdd";
-// import RentList from "./pages/Rent/RentList/RentList";
-// import RentSearch from "./pages/Rent/RentSearch/RentSearch";
-// import Favourite from "./pages/Favourite/Favourite";
-// import SearchHouse from "./pages/SearchHouse/SearchHouse";
 
 const CityList = lazy(() => import("./pages/CityList/CityList"))
 const Map = lazy(() => import("./pages/Map/Map"))

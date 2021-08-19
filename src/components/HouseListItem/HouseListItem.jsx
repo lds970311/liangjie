@@ -9,7 +9,7 @@ class HouseListItem extends PureComponent {
         return (
             <div className={style.house} key={this.props.key}
                  onClick={() => {
-                     console.log("123")
+                     console.log(this.props.houseData.houseCode)
                      this.props.history.push(`/details/${this.props.houseData.houseCode}`)
                  }}
                  style={this.props.style}>

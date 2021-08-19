@@ -12,10 +12,13 @@
     "node-sass": "5",
     "react": "16",
     "react-dom": "16",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-spring": "^9.2.4",
     "react-virtualized": "^9.22.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
     "web-vitals": "^1.0.1",
     "yup": "^0.32.9"
   },
@@ -46,6 +49,7 @@
   "devDependencies": {
     "babel-plugin-import": "^1.13.3",
     "customize-cra": "^1.0.0",
-    "react-app-rewired": "^2.1.8"
+    "react-app-rewired": "^2.1.8",
+    "redux-devtools-extension": "^2.13.9"
   }
 }

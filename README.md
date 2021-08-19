@@ -14,6 +14,11 @@
 - jsx
 - 百度地图API
 - scss
+- react-vertualize
+- render-props
+- HOC
+- redux
+- lazy-load
 
 ### 1.2 服务端
 
@@ -27,12 +32,12 @@
 node_modules    nodejs模块依赖
 public          公共资源文件
 /src
-    /assets       资源文件，比如：图片、字体等
-    /components   公共组件，多个页面中都需要用到的组件
-    /pages        页面组件
-    /utils        工具函数、方法
-    App.js        根组件（用来配置路由等）
-    index.js      整个项目的入口文件
+/assets       资源文件，比如：图片、字体等
+/components   公共组件，多个页面中都需要用到的组件
+/pages        页面组件
+/utils        工具函数、方法
+App.js        根组件（用来配置路由等）
+index.js      整个项目的入口文件
 .env.development  开发环境环境变量配置
 .env.production   生产环境环境变量配置
 ```

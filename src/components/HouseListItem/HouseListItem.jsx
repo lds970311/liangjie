@@ -8,7 +8,10 @@ class HouseListItem extends PureComponent {
     render() {
         return (
             <div className={style.house} key={this.props.key}
-                 onClick={() => this.props.history.push(`/details/${this.props.houseData.houseCode}`)}
+                 onClick={() => {
+                     console.log("123")
+                     this.props.history.push(`/details/${this.props.houseData.houseCode}`)
+                 }}
                  style={this.props.style}>
                 <div className={style.imgWrap}>
                     <img

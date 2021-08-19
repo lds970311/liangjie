@@ -278,13 +278,14 @@ class Filter extends Component {
     }
 
     handleToAnimate = async (next, cancel) => {
+        console.log(window.outerHeight)
         const height = window.innerHeight;
         const {openType} = this.state
         let isHide = openType === 'more' || openType === ''
         if (isHide) {
-            await next({opacity: 0, height: 0})
+            await next({opacity: 0, height: height, display: 'none'})
         } else {
-            await next({opacity: 1, height: height})
+            await next({opacity: 1, height: height, display: 'block'})
         }
     }
 
@@ -314,7 +315,6 @@ class Filter extends Component {
                 {/*前三个菜单的遮罩层*/}
                 {this.renderMask()}
                 {/* {openType === "area" || openType === "mode" || openType === "price" ? this.renderMask() : null}*/}
-                {this.renderMask()}
                 <FilterTitle selectedStatus={this.state.titleSelectedStatus} changeStatus={this.changeActiveItem}/>
                 {/* 前三个菜单对应的内容： */}
                 {this.renderFilterPicker()}

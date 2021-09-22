@@ -1,8 +1,7 @@
 import axios from "axios";
 
 //默认请求路径
-axios.defaults.baseURL = "http://192.168.1.124:8080"
-
+axios.defaults.baseURL = "http://8.210.122.12:8080"
 //添加请求拦截器
 axios.interceptors.request.use((config) => {
     const url = config.url;
